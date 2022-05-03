@@ -1,0 +1,4 @@
+#INPUT 23 55 45 34 77 13 24
+#OUTPUT 13
+a=list(map(int,input().split()))
+print(min(a))
